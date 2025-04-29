@@ -2,8 +2,8 @@
 
 #Defining where the logs are and where to save the archives
 
-LOG_DIR="./logs"      #Folder where the logs are
-ARCHIVE_DIR="./archives" #Folder where the archives would be stored
+LOG_DIR="/var/logs"      #Folder where the logs are
+ARCHIVE_DIR="/var/archives" #Folder where the archives would be stored
 
 #Creating the archive folder
 mkdir -p "$ARCHIVE_DIR"
